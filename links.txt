@@ -1,1 +1,11 @@
 https://www.youtube.com/watch?v=ghnFmeY4bO4&list=PLB47zsuu0aAGTbcV0A0rtoOVgBWfCXaCT
+
+uv init (create basic files)
+
+create virtual env
+===========
+uv venv env
+source env/bin/activate
+
+uv pip install langchain
+uv pip list
