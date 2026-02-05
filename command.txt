@@ -12,3 +12,6 @@ source env/bin/activate
 
 uv pip install langchain
 uv pip list
+
+=================
+uv pip install -r requirements.txt
