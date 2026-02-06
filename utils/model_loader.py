@@ -5,6 +5,7 @@ from pydantic import BaseModel, Field
 from utils.config_loader import load_config
 from langchain_groq import ChatGroq
 from langchain_openai import ChatOpenAI
+load_dotenv()
 
 
 class ConfigLoader:
