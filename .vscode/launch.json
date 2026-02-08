@@ -17,6 +17,15 @@
                 "8000"
             ],
             "jinja": true
+        },
+        {
+           "name": "Debug Streamlit",
+           "type": "debugpy",
+           "request": "launch",
+           "program": "${workspaceFolder}/streamline_app.py",
+           "args": [],
+           "justMyCode": true
         }
+
     ]
 }
